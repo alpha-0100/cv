@@ -1,0 +1,84 @@
+body{
+    font-size: 1.4rem;
+}
+.part-1{
+    background-image: linear-gradient(to bottom right, rgb(47, 0, 255), #4240A3);
+}
+.heading{
+    text-align: center;
+    padding: 3% 0%;
+    padding-bottom: 2rem;
+    color: white;
+}
+.heading img{
+    margin-bottom: 3%;
+    width: 25%;
+    height: 25%;
+}
+.heading h1{
+    padding-bottom: 1%;
+}
+.heading h2{
+    padding-bottom: 1%;
+}
+.heading button{
+    border-width: 2px;
+}
+@media screen and (max-width: 576px) {
+    .heading img {
+      height: 50%;
+      width: 50%;
+    }
+  }
+
+.part-2{
+    text-align: center;
+    padding: 2% 4%;
+}
+.part-2 hr{
+    border: none;
+    border-top: dotted;
+    border-width: 0.8rem;
+    width: 10rem;
+    margin-top: 2%;
+    border-color: blue;
+}
+.part-3{
+    padding: 2% 0;
+}
+.part-3 h2{
+    text-align: center;
+    padding-bottom: 2%;
+    color: white;
+}
+.part-3 img{
+    height: 13rem;
+}
+
+.part-3 hr{
+    border: none;
+    border-top: dotted;
+    border-width: 0.8rem;
+    width: 10rem;
+    margin-top: 1.5%;
+    border-color: white;
+}
+.part-4{
+    text-align: center;
+    padding: 5% 0;
+}
+.part-4 h2{
+    padding-bottom: 2%;
+}
+.part-5{
+    text-align: center;
+    background-color: rgb(212, 211, 211);
+    font-size: medium;
+}
+.part-5 img{
+    padding-top: 15px;
+}
+.part-5 p{
+    padding-top: 1%;
+}
+
